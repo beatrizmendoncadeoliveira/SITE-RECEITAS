@@ -1,0 +1,54 @@
+<style type="text/css">
+*{
+font-face:Arial;
+
+}
+
+#cabecalho{
+background-color:grey;
+}
+
+#cabecalho h1{
+text-align:center;
+}
+
+#menu ul {
+text-align:center;
+color:white;
+background-color:lightgrey;
+}
+
+
+#menu li{
+display: inline;
+border-style:solid;
+}
+
+#menu a:hover {
+background-color:white;
+color:black;
+}
+
+#redes sociais img{
+height:24px;
+}
+
+#esquerda{
+background-color:yellow;
+width:60%;
+float:left;
+}
+
+#direita{
+background-color:green;
+width:40%;
+float:left;
+}
+
+#rodape{
+clear:both;
+background-color:lightgrey;
+text-align:center;
+}
+
+</style>

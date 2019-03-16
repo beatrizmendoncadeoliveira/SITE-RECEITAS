@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>SITE RECEITA</title>
+</head>
+
+<body>
+
+
+<div id="cabecalho">
+<p align="center"</p>
+<img src="img/bolo.jpg" height=200px >
+<h1>Site de Receitas</h1>
+</div>
+<!--fim cabecalho-->
+
+
+<div id="menu">
+<ul>
+<li><a href="sitereceita.html">Home</a></li>
+<li><a href="cadastro.html">Cadastrar Receitas</a></li>
+<li><a href="#">Categorias de Receitas</a></li>
+<li><a href="#">Contato</a></li>
+</ul>
+</div>
+<!--fim menu-->
+
+
+<div id="links-importantes">
+<div id="redes sociais">
+<img src="img/fb.jpg" height=20px />
+<img src="img/insta.jpg" height=20px />
+<img src="img/tt.jpg" height="20px" /p
+</div>
+</div>
+<!--fim links importantes-->
+
+
+<input type="search" name="pesquisar" />
+<input type="image" name="lupa" alt="pesquisar" src="img/lupa.jpg" height=20px/>
+
+
+<div id="corpo">
+<h1>Nova Receita</h1>
+<input type="text" name="nome" id="nome" placeholder="Digite o nome da receita" size="50"/>
+<label for="nome">Nome da Receita</label><br><br>
+
+<input type="file" name="foto" id="foto" />
+<label for="foto" >Selecione uma foto da receita<br><br>
+
+<textarea name="descricao" placeholder="Digite a descricao da receita" cols="50" rows="10"></textarea><br><br>
+
+<fieldset>
+
+<legend>Novo Ingrediente</label>
+<input type="number" nome="qtde" min="1" max="1000" />
+<label for="qtde">Quantidade</label>
+
+
+<label for="unidade">Unidade</label>
+<select id="unidade" name="unidade" />
+<option value="cs">Colher sopa</option>
+<option value="cc">Colher cha</option>
+<option value="x">Xicara</option>
+</select>
+
+
+<input type="text" id="desc" name="desc" size="20" placeholder="Digite o nome do Ingrediente">
+<label for="desc">Descricao</label>
+
+
+<button name="adicionar">Adicionar Ingrediente</button>
+</fieldset>
+
+<p>
+			<h5>Ingredientes Adicionados</h5>
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Quantidade
+						</th>
+						<th>
+							Descrição
+						</th>
+					</tr>
+				</thead>
+				<tbody id="tbl-ingredientes">
+					<tr id="ingrediente">
+						<td id="qtde-ingrediente">
+						</td>
+						<td id="desc-ingrediente">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</p>
+		<p>
+			<label for="modo-preparo">Descrição da receita:
+				<textarea id="modo-preparo" name="modo-preparo" placeholder="Digite o modo de preparo" cols="50" rows="10"></textarea>
+			</label>
+		</p>
+		<p>
+			Dificuldade:
+			<input id="facil" type="radio" name="dificuldade" value="f" />
+			<label for="facil">Fácil</label>
+			<input id="medio" type="radio" name="dificuldade" value="m" />
+			<label for="medio">Médio</label>
+			<input id="dificil" type="radio" name="dificuldade" value="d" />
+			<label for="dificil">Difícil</label>
+		</p>
+		<p>
+			Tempo de preparo: <input type="number" name="tempo-preparo" min="1" />
+			<select name="unidade-tempo">
+				<option value="min">minutos</option>
+				<option value="h">horas</option>
+				<option value="d">dias</option>
+			</select>
+		</p>
+		<p>
+			Rendimentos: <input type="number" name="rendimento" min="1" max="100" /> porções
+		</p>
+		<p>
+			Acompanhamentos: <br />
+			<table>
+				<tr>
+					<td>
+						<label>
+							<input type="checkbox" name="acompanhentos" value="arroz" />
+							Arroz
+						</label>
+					</td>
+					<td>
+						<label>
+							<input type="checkbox" name="acompanhentos" value="feijao" />
+							Feijão
+						</label>
+					</td>
+					<td>
+						<label>
+							<input type="checkbox" name="acompanhentos" value="fritas" />
+							Batata Frita
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>
+							<input type="checkbox" name="acompanhentos" value="salada" />
+							Salada
+						</label>
+					</td>
+					<td>
+						<label>
+							<input type="checkbox" name="acompanhentos" value="doce" />
+							Batata Doce
+						</label>
+					</td>
+					<td>
+						<label>
+							<input type="checkbox" name="acompanhentos" value="pure" />
+							Pure de Batata
+						</label>
+					</td>
+				</tr>
+			</table>
+		</p>
+		<p>
+			<input type="submit" value="Salvar Receita">
+		</p>
+		</form>
+	</div><!-- fim div corpo -->
+	<div id="rodape">
+		<p>Desenvolvido por 1TDSJ - FIAP &copy; 2019</p>
+	
+	</div><!-- fim div rodape -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
